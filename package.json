@@ -1,0 +1,20 @@
+{
+  "name": "rangejs",
+  "version": "1.0.0",
+  "description": "a package for creating numerical ranges",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njaneambrose/rangejs.git"
+  },
+  "keywords": [
+    "range",
+    "sequence"
+  ],
+  "author": "njaneambrose <njaneambrose@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njaneambrose/rangejs/issues"
+  },
+  "homepage": "https://github.com/njaneambrose/rangejs#readme"
+}
