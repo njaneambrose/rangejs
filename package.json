@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/njaneambrose/rangejs/issues"
   },
-  "homepage": "https://github.com/njaneambrose/rangejs#readme"
+  "homepage": "https://github.com/njaneambrose/rangejs#readme",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "dependencies": {}
 }
