@@ -1,5 +1,11 @@
 var Range = (function(){
     return {
+        /**
+         * Generates a range from start to end with a difference of 1
+         * @param {Number}start
+         * @param {Number} end
+         * @returns {Array}
+         */
         range1: function (start, end) {
             var back = [];
             if(end > start){
@@ -13,7 +19,11 @@ var Range = (function(){
             }
             return back;
         },
-        //Assumes start is 0
+        /**
+         * Generates a range from 0 to end with a difference of 1
+         * @param {Number} end
+         * @returns {Array}
+         */
         range2: function (end) {
             var back = [];
             if(end > 0){
@@ -27,6 +37,13 @@ var Range = (function(){
             }
             return back;
         },
+        /**
+         * Generates a range from start to end with a difference of diff
+         * @param {Number} start
+         * @param {Number} end
+         * @param {Number} diff
+         * @returns {Array}
+         */
         range3: function (start,end,diff) {
             var back = [];
             if(end  > start){
@@ -40,7 +57,12 @@ var Range = (function(){
             }
             return back;
         },
-         //Assumes start is 0
+        /**
+         * Generates a range from 0 to end with a difference of diff
+         * @param {Number} end
+         * @param {Number} diff
+         * @returns {Array}
+         */
         range4: function (end,diff) {
             var back = [];
            if(end  > 0){

@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/njaneambrose/rangejs#readme",
   "files": [
-    "lib",
+    "examples/example.js",
     "index.js"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "test": "node examples/example.js"
+  }
 }
