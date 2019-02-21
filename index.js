@@ -11,11 +11,11 @@ var Range = (function(){
             if(end > start){
                 for (var aq = start; aq < end; aq++) {
                     back.push(aq);
-                }   
+                }
             }else{
                 for (var a = start; a > end; a--) {
                     back.push(a);
-                } 
+                }
             }
             return back;
         },
@@ -29,11 +29,11 @@ var Range = (function(){
             if(end > 0){
                 for (var ab = 0; ab < end; ab++) {
                     back.push(ab);
-                }   
+                }
             }else{
                 for (var a = 0; a > end; a--) {
                     back.push(a);
-                } 
+                }
             }
             return back;
         },
@@ -53,7 +53,7 @@ var Range = (function(){
             }else{
                for (var a = start; a > end; a += diff) {
                     back.push(a);
-                } 
+                }
             }
             return back;
         },
@@ -72,12 +72,12 @@ var Range = (function(){
             }else{
                for (var a = 0; a > end; a += diff) {
                     back.push(a);
-                } 
+                }
             }
             return back;
         }
     }
-    
+
 })();
 
 module.exports = Range;
