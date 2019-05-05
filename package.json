@@ -1,6 +1,6 @@
 {
-  "name": "rangejs",
-  "version": "1.0.0",
+  "name": "rangelib",
+  "version": "1.1.0",
   "description": "a package for creating numerical ranges",
   "main": "index.js",
   "repository": {
