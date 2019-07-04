@@ -1,6 +1,6 @@
 {
   "name": "rangelib",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a package for creating numerical ranges plus an array splitting library into multi-dimensional ones",
   "main": "index.js",
   "repository": {
