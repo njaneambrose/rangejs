@@ -1,7 +1,7 @@
 {
   "name": "rangelib",
   "version": "1.1.0",
-  "description": "a package for creating numerical ranges",
+  "description": "a package for creating numerical ranges plus an array splitting library into multi-dimensional ones",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,10 @@
   },
   "keywords": [
     "range",
-    "sequence"
+    "sequence",
+    "arrays",
+    "multi-dimensional",
+    "split"
   ],
   "author": "njaneambrose <njaneambrose@gmail.com>",
   "license": "MIT",

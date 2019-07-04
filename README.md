@@ -1,6 +1,6 @@
 # rangelib
 
-Use this package to generate numerical ranges
+Use this package to generate numerical ranges and now split arrays with the two quick methods into n items per sub-array or n sub-arrays
 
 ## Installation
 
