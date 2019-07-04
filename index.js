@@ -51,6 +51,35 @@ var Range = (function(){
                 }
             }
             return $back;
+        },
+        /**
+         * Allows you to create a multi-dimensional array by splitting an array into n items per sub-array
+         * @param arr
+         * @param n
+         */
+        splitRows: function (arr,n) {
+            let a = arr.length,
+            ar1 = [],
+            c = 0;
+            while(a > c){
+                let ar2 = [];
+                for(let b = c;b < c+n;b++){
+                    ar2.push(arr[b] || undefined);
+                }
+                ar1.push(ar2);
+                c +=n;
+            }
+            return ar1;
+        },
+        /**
+         *
+         * @param arr
+         * @param cols
+         * @returns {*|Array}
+         */
+        splitCols: function (arr,cols) {
+            let i = Math.ceil(arr.length/cols);
+           return this.splitRows(arr,i);
         }
     }
 

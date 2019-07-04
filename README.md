@@ -24,6 +24,16 @@ ranges.ranges(10,15); // [10, 11 , 12, 13, 14]
 range.ranges(0,20,5); // [0, 5, 10, 15]
 range.ranges(-10,-2,2); // [-10, -8, -6, -4]
 
+/* New Method 
+  Split an array into n items per sub-array
+*/
+
+range.splitRows([1,2,3,4,5,6,7,8],2); // [[1,2],[3,4],[5,6],[7,8]]
+
+/* New Method 
+  Split an array into n sub-arrays automatically fitting equal items for each
+*/
+range.splitCols([1,2,3,4,5,6,7,8],2) // [[1,2,3,4],[5,6,7,8]]
 ```
 ## Caught a bug?
 
